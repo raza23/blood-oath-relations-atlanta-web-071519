@@ -53,9 +53,9 @@ Questions you should ask yourself:
 
 **`Cult`**
 
-* `Cult#name`
-  * returns a `String` that is the cult's name
-* `Cult#location`
+<!-- * `Cult#name`
+  * returns a `String` that is the cult's name -->
+<!-- * `Cult#location`
   * returns a `String` that is the city where the cult is located
 * `Cult#founding_year`
   * returns a `Fixnum` that is the year the cult was founded
@@ -64,11 +64,11 @@ Questions you should ask yourself:
 * `Cult#recruit_follower`
   * takes in an argument of a `Follower` instance and adds them to this cult's list of followers
 * `Cult#cult_population`
-  * returns a `Fixnum` that is the number of followers in this cult
-* `Cult.all`
-  * returns an `Array` of all the cults
-* `Cult.find_by_name`
-  * takes a `String` argument that is a name and returns a `Cult` instance whose name matches that argument
+  * returns a `Fixnum` that is the number of followers in this cult -->
+<!-- * `Cult.all`
+  * returns an `Array` of all the cults -->
+<!-- * `Cult.find_by_name`
+  * takes a `String` argument that is a name and returns a `Cult` instance whose name matches that argument *************************-->
 * `Cult.find_by_location`
   * takes a `String` argument that is a location and returns an `Array` of cults that are in that location
 * `Cult.find_by_founding_year`
@@ -76,14 +76,14 @@ Questions you should ask yourself:
 
 **`Follower`**
 
-* `Follower#name`
+<!-- * `Follower#name`
   * returns a `String` that is the follower's name
 * `Follower#age`
   * returns a `Fixnum` that is the age of the follower
 * `Follower#life_motto`
   * returns a `String` that is the follower's life motto
 * `Follower#cults`
-  * returns an `Array` of this follower's cults
+  * returns an `Array` of this follower's cults -->
 * `Follower#join_cult`
   * takes in an argument of a `Cult` instance and adds this follower to the cult's list of followers
 * `Follower.all`
